@@ -8,6 +8,8 @@ import NewTweet from './NewTweet'
 import TweetPage from './TweetPage'
 import Nav from './Nav'
 
+// ===== App =====
+
 class App extends Component {
   componentDidMount() {
     this.props.dispatch(handleInitialData())
